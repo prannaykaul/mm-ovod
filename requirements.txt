@@ -1,0 +1,13 @@
+opencv-python
+mss
+timm==0.5.4
+dataclasses
+ftfy
+regex
+fasttext
+scikit-learn
+lvis
+nltk
+openai
+numpy==1.23.3
+git+https://github.com/openai/CLIP.git

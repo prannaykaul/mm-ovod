@@ -1,0 +1,8 @@
+_BASE_: "base_r50_4x_clip.yaml"
+MODEL:
+  ROI_BOX_HEAD:
+    USE_ZEROSHOT_CLS: True
+    ZEROSHOT_WEIGHT_PATH: "datasets/metadata/lvis_gpt3_text-davinci-002_features_author.npy"
+    USE_BIAS: -2.0
+DATASETS:
+  TRAIN: ("lvis_v1_train_norare",)
